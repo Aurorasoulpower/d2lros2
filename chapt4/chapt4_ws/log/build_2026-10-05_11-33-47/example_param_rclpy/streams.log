@@ -1,0 +1,37 @@
+[0.370s] Invoking command in '/home/aurora/d2lros2/chapt4/chapt4_ws/src/example_param_rclpy': PYTHONPATH=/home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_param_rclpy build --build-base /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build install --record /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/install.log --install-scripts $base/lib/example_param_rclpy --single-version-externally-managed install_data
+[0.474s] running egg_info
+[0.474s] creating ../../build/example_param_rclpy/example_param_rclpy.egg-info
+[0.475s] writing ../../build/example_param_rclpy/example_param_rclpy.egg-info/PKG-INFO
+[0.475s] writing dependency_links to ../../build/example_param_rclpy/example_param_rclpy.egg-info/dependency_links.txt
+[0.475s] writing entry points to ../../build/example_param_rclpy/example_param_rclpy.egg-info/entry_points.txt
+[0.475s] writing requirements to ../../build/example_param_rclpy/example_param_rclpy.egg-info/requires.txt
+[0.475s] writing top-level names to ../../build/example_param_rclpy/example_param_rclpy.egg-info/top_level.txt
+[0.475s] writing manifest file '../../build/example_param_rclpy/example_param_rclpy.egg-info/SOURCES.txt'
+[0.475s] reading manifest file '../../build/example_param_rclpy/example_param_rclpy.egg-info/SOURCES.txt'
+[0.476s] writing manifest file '../../build/example_param_rclpy/example_param_rclpy.egg-info/SOURCES.txt'
+[0.476s] running build
+[0.476s] running build_py
+[0.476s] creating /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build
+[0.476s] creating /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build/lib
+[0.476s] creating /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build/lib/example_param_rclpy
+[0.476s] copying example_param_rclpy/__init__.py -> /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build/lib/example_param_rclpy
+[0.476s] copying example_param_rclpy/param_basic.py -> /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build/lib/example_param_rclpy
+[0.476s] running install
+[0.476s] running install_lib
+[0.476s] creating /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/python3.10/site-packages/example_param_rclpy
+[0.476s] copying /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build/lib/example_param_rclpy/__init__.py -> /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/python3.10/site-packages/example_param_rclpy
+[0.477s] copying /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build/lib/example_param_rclpy/param_basic.py -> /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/python3.10/site-packages/example_param_rclpy
+[0.477s] byte-compiling /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/python3.10/site-packages/example_param_rclpy/__init__.py to __init__.cpython-310.pyc
+[0.477s] byte-compiling /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/python3.10/site-packages/example_param_rclpy/param_basic.py to param_basic.cpython-310.pyc
+[0.477s] running install_data
+[0.477s] creating /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/share/ament_index
+[0.477s] creating /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/share/ament_index/resource_index
+[0.477s] creating /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/share/ament_index/resource_index/packages
+[0.477s] copying resource/example_param_rclpy -> /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/share/ament_index/resource_index/packages
+[0.477s] copying package.xml -> /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/share/example_param_rclpy
+[0.477s] running install_egg_info
+[0.478s] Copying ../../build/example_param_rclpy/example_param_rclpy.egg-info to /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/python3.10/site-packages/example_param_rclpy-0.0.0-py3.10.egg-info
+[0.478s] running install_scripts
+[0.489s] Installing param_basic script to /home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/example_param_rclpy
+[0.489s] writing list of installed files to '/home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/install.log'
+[0.500s] Invoked command in '/home/aurora/d2lros2/chapt4/chapt4_ws/src/example_param_rclpy' returned '0': PYTHONPATH=/home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aurora/d2lros2/chapt4/chapt4_ws/install/example_param_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_param_rclpy build --build-base /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/build install --record /home/aurora/d2lros2/chapt4/chapt4_ws/build/example_param_rclpy/install.log --install-scripts $base/lib/example_param_rclpy --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+/param_basic:
+  ros__parameters:
+    rcl_log_level: 40
+    use_sim_time: false
+
