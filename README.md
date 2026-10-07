@@ -11,6 +11,9 @@
   - **chapt4_ws/src/robot_control_interfaces/**：Action 接口包（MoveRobot.action）
   - **chapt4_ws/src/example_action_rclpy/**：Action 实战（服务端+客户端，含取消功能）
 - **doc/**：学习笔记及日志记录存放处
+  - **doc/学习日志记录.md** 日志
+  - **其他ros2开头的** 笔记
+  - **日期开头的** 实操记录
 
 ## 📝 进度记录
 
@@ -23,13 +26,12 @@
 - [X] 第4章 参数回调（替代轮询）
 - [X] 第4章 Action 通信（接口定义、服务端、客户端、取消）
 - [X] 第4章 生命周期节点（概念）
-- [ ] 第5章 常用工具
-- [ ] 后续进阶篇
+- [X] 第5章 常用工具（launch，CLI ， RViz ， RQT，Rosbag ，Gazebo简单认识)
 
 ## 💻 环境
 
 - Ubuntu 20.04
-- ROS 2 Foxy
+- ROS 2  Humble
 - Python 3.8+
 
 ## 📌 备忘
@@ -52,9 +54,3 @@
 - 查看接口：`ros2 interface show <接口>`
 - 查看 Domain ID：`echo $ROS_DOMAIN_ID`
 - 系统诊断：`ros2 doctor`
-
-## ⚠️ 待解决问题
-
-- 服务端阻塞：多线程执行器 + 回调组
-- 接口常量名统一为 `STATUS_MOVING`
-- 生命周期节点实操
